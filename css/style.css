@@ -1,0 +1,61 @@
+body {
+  background: #79bf6e;
+  overflow: hidden;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+.section {
+  padding: 40px 0px 40px 0px;
+}
+
+.section.dark {
+  background: #dedede;
+}
+
+.section h2 {
+  color: #444;
+  padding-bottom: 20px;
+}
+
+/* Code */
+.code {
+  padding: 20px;
+  background: #dedede;
+  color: #666;
+}
+
+.section.dark .code {
+  background: #ccc;
+}
